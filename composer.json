@@ -1,5 +1,5 @@
 {
-    "name": "c2s/logger",
+    "name": "c4s/logger",
     "description": "library, plugin, util",
     "type": "library",
     "require": {
