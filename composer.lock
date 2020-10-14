@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6d364dbf0e2fd6cee9da728f9eae8609",
+    "packages": [
+        {
+            "name": "phpjson/schema-tran",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AmChella/json-schema-tran.git",
+                "reference": "747c1df54511052e360500d38c8704a4dc02212d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AmChella/json-schema-tran/zipball/747c1df54511052e360500d38c8704a4dc02212d",
+                "reference": "747c1df54511052e360500d38c8704a4dc02212d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Json\\Schema": "app/",
+                    "Json\\Schema\\Exception": "app/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chellapandi S",
+                    "email": "2chellaa.s@gmail.com"
+                }
+            ],
+            "description": "Schema, Validator, Json",
+            "time": "2018-05-15T16:33:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "cs/logger",
+    "description": "library, plugin, util",
+    "type": "library",
+    "require": {
+        "phpjson/schema-tran": "^0.0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chella S",
+            "email": "2chellaa@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
