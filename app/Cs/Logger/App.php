@@ -24,12 +24,4 @@ Class App extends Util {
             return new Adapter($customArg);
         };
     }
-
-    public function getContext(String $key): Object {
-        if (self::isAvailable($this->app, $key) === false) {
-            throw new NotFound("$key.the.object.not.available");
-        }
-
-        return \call_user_func($this->app[$key], '');
-    }
 }
